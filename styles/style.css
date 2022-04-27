@@ -69,14 +69,15 @@ section img {
   margin-top: -10px;
   margin-bottom: 10px;
   padding-top: 5px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .section-info p {
   font-size: 14px;
+  min-width: 150px;
 }
-.section-info > p:not(:last-of-type) {
+/* .section-info > p:not(:last-of-type) {
   margin-right: 50px;
-}
+} */
 .modal-img {
   cursor: zoom-in;
   transition: 300ms all ease-in-out;
