@@ -1,0 +1,18 @@
+:root {
+  --imgHeight: 900px;
+}
+body {
+  padding-bottom: 50px;
+}
+.home-carousel,
+.swiper {
+  max-height: 100%;
+}
+.home-carousel img {
+  width: 100%;
+  max-height: var(--imgHeight);
+  object-fit: cover;
+}
+.modal-img {
+  cursor: zoom-in;
+}
